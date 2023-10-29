@@ -9,7 +9,7 @@ export default function Home() {
 
   return (
     <main className="flex min-h-screen flex-col items-center gap-5 p-24">
-      <h1>Conectando con Servando Negrete.</h1>
+      <h1>Welcome to Ausa Health</h1>
       <JaaSMeeting
        appId ="vpaas-magic-cookie-cd58d83d6bb247d893d484da00e00493"
        roomName = "PleaseUseAGoodRoomName"
