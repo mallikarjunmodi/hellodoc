@@ -17,13 +17,17 @@ export default function Home() {
           disableModeratorIndicator: true,
           startScreenSharing: true,
           enableEmailInStats: false,
+          noSsl: true,   // Add this line to remove Jitsi Meet logo
+          SHOW_JITSI_WATERMARK: false,
         }}
+        
         interfaceConfigOverwrite={{
           DISABLE_JOIN_LEAVE_NOTIFICATIONS: true,
         }}
         userInfo={{
           displayName: "Diego Espinosa",
           email: "diego.espinosagrc@uanl.edu.mx",
+        
         }}
         getIFrameRef={(iframeRef) => {
           iframeRef.style.height = "400px";
@@ -32,3 +36,4 @@ export default function Home() {
     </main>
   );
 }
+ 
