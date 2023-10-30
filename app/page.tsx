@@ -12,11 +12,11 @@ export default function Home() {
     </Head>
 
     {/* Video Call Section */}
-    <div className="bg-blue-600 w-100 h-full flex items-center justify-center">
+    <div className="bg-blue-600 w-70% h-full flex items-center justify-left">
     <JaaSMeeting
      appId ="vpaas-magic-cookie-cd58d83d6bb247d893d484da00e00493"
-     roomName = "PleaseUseAGoodRoomName"
-     jwt = "eyJraWQiOiJ2cGFhcy1tYWdpYy1jb29raWUtY2Q1OGQ4M2Q2YmIyNDdkODkzZDQ4NGRhMDBlMDA0OTMvOWE3ZTViLVNBTVBMRV9BUFAiLCJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJhdWQiOiJqaXRzaSIsImlzcyI6ImNoYXQiLCJpYXQiOjE2OTg1OTQxMTQsImV4cCI6MTY5ODYwMTMxNCwibmJmIjoxNjk4NTk0MTA5LCJzdWIiOiJ2cGFhcy1tYWdpYy1jb29raWUtY2Q1OGQ4M2Q2YmIyNDdkODkzZDQ4NGRhMDBlMDA0OTMiLCJjb250ZXh0Ijp7ImZlYXR1cmVzIjp7ImxpdmVzdHJlYW1pbmciOnRydWUsIm91dGJvdW5kLWNhbGwiOnRydWUsInNpcC1vdXRib3VuZC1jYWxsIjpmYWxzZSwidHJhbnNjcmlwdGlvbiI6dHJ1ZSwicmVjb3JkaW5nIjp0cnVlfSwidXNlciI6eyJoaWRkZW4tZnJvbS1yZWNvcmRlciI6ZmFsc2UsIm1vZGVyYXRvciI6dHJ1ZSwibmFtZSI6InBhcmlzaHJhZ3JvdXAiLCJpZCI6Imdvb2dsZS1vYXV0aDJ8MTAxNDE1MTYwMjg0ODMyODE0MTgyIiwiYXZhdGFyIjoiIiwiZW1haWwiOiJwYXJpc2hyYWdyb3VwQGdtYWlsLmNvbSJ9fSwicm9vbSI6IioifQ.EEfooV7A57BS_js2XEDjyi9MQwVvJvgDL4oQvDya24oFl-jg5b2y9u2FXM0Ngz1STRZKFc12NFxkJcgy0b9TTL1e29XlsIObIPFxrE4TdEw3LfLxGrhTqGgYQNvm2qeZyIlpSZcV-_Uz7WaUdV5r9sNfnxJIY8aiogC9JiHKpQbflBA9yahjXrwZX5jmAPps2ImOnD6JtNpWYB89JSzfCU8SgOuXg06oClMsIdH1zjeUsfHI0dyyP2F7KPK5GhGUwy8BsZqlLIpNy3dbbMvtY7Qt60idbVBzAs_PbtKw362rkDIjLphnWiGWDRd-LmQ9zDu8LvwHdIBzwh47ZmMgdg"
+     roomName = "Ausa Clinic"
+     jwt = "eyJraWQiOiJ2cGFhcy1tYWdpYy1jb29raWUtY2Q1OGQ4M2Q2YmIyNDdkODkzZDQ4NGRhMDBlMDA0OTMvOWE3ZTViLVNBTVBMRV9BUFAiLCJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJhdWQiOiJqaXRzaSIsImlzcyI6ImNoYXQiLCJpYXQiOjE2OTg2NDMyMTYsImV4cCI6MTY5ODY1MDQxNiwibmJmIjoxNjk4NjQzMjExLCJzdWIiOiJ2cGFhcy1tYWdpYy1jb29raWUtY2Q1OGQ4M2Q2YmIyNDdkODkzZDQ4NGRhMDBlMDA0OTMiLCJjb250ZXh0Ijp7ImZlYXR1cmVzIjp7ImxpdmVzdHJlYW1pbmciOnRydWUsIm91dGJvdW5kLWNhbGwiOnRydWUsInNpcC1vdXRib3VuZC1jYWxsIjpmYWxzZSwidHJhbnNjcmlwdGlvbiI6dHJ1ZSwicmVjb3JkaW5nIjp0cnVlfSwidXNlciI6eyJoaWRkZW4tZnJvbS1yZWNvcmRlciI6ZmFsc2UsIm1vZGVyYXRvciI6dHJ1ZSwibmFtZSI6InBhcmlzaHJhZ3JvdXAiLCJpZCI6Imdvb2dsZS1vYXV0aDJ8MTAxNDE1MTYwMjg0ODMyODE0MTgyIiwiYXZhdGFyIjoiIiwiZW1haWwiOiJwYXJpc2hyYWdyb3VwQGdtYWlsLmNvbSJ9fSwicm9vbSI6IioifQ.HBHHcAYkTu0nwcpuZOEyA18J66zmltHZxe-HuiodFs02VJcCEHztRij7iuagT97DGscn2yBwJJXDj0MQc4atMJarxIUIT3xpIZbHKR_zrpA5rs-tvaw7TgBUcS6IhhBWZwbSiu5WFXECe6JLymZiduK0RNwewsFiHPOhY3I7Xg7KTFvVD6ffvCODaMB-ncoricGjo11pFnE4_1z-EvmH_cTx9ydVyp44chEIr_UK66_zb6lUJDqnE70FrOuOOSu-BOR7e7mUzSR_viUJdEXjI8140zZ7nZ00Qhj9fdLWomR5T2HgafvFJEHewMcv_mzeOv-ahoxEyjtZeSxEBKfIZA"
       configOverwrite = {{
       disableThirdPartyRequests: true,
       disableLocalVideoFlip: true,
@@ -28,7 +28,8 @@ export default function Home() {
       TILE_VIEW_MAX_COLUMNS: 4
       }}
       getIFrameRef={(iframeRef) => {
-        iframeRef.style.height = "400px";
+        iframeRef.style.height = "600px";
+        iframeRef.style.width = "100%";
       }}
       //  spinner = { SpinnerView }
       // onApiReady = { (externalApi) => { ... } }
